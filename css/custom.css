@@ -33,13 +33,21 @@ a:hover {
   text-decoration: none;
 }
 
+.samantha {
+  font-family: 'Pacifico', cursive;
+  margin-bottom: 10px;
+}
+.samantha small {
+    font-family: 'Helvetica';
+}
+
 /**************** Navigation *************/
 
 .navbar-brand>img {
   display: inline-block;
   margin-left: 10px;
   margin-right: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .moon {
   width: 35px;
@@ -52,7 +60,7 @@ a:hover {
   color: #ffb482;
   margin-bottom: 3px;
   line-height: 30px;
-
+  font-family: 'Pacifico', cursive;
 }
 a.navbar-brand:hover,
 a.navbar-brand:focus{
@@ -333,6 +341,7 @@ a.work:hover {
   color: #3effa7;
   font-size: 30px;
   padding-bottom: 15px;
+  font-family: 'Pacifico', cursive;
 }
 
 .emailMe a:hover {
@@ -371,6 +380,7 @@ label {
   color: #3effa7;
   font-size: 30px;
   padding-bottom: 15px;
+  font-family: 'Pacifico', cursive;
 }
 
 .followMe a:hover {
@@ -392,6 +402,21 @@ label {
 .btn:hover {
   color: #ff3e96;
   border-color: #ff3e96;
+}
+input::-webkit-input-placeholder {
+color: #ff3e96 !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #ff3e96 !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: #ff3e96 !important;
+}
+
+input:-ms-input-placeholder {
+color: #ff3e96 !important;
 }
 
 /******* Social Media Icons *******/
@@ -472,6 +497,7 @@ ul.soc {
 /****************** Modal Window *****************/
 .modal-header {
   border-bottom: 1px solid #ff3e96;
+  font-family: 'Pacifico', cursive;
 }
 .modal-content {
   background-color: rgba(109,123,255, 0.9);
@@ -481,6 +507,8 @@ ul.soc {
 img.screenShot{
   height: 368.42px;
   width: 268px;
+  margin-left: 27.5px;
+  /*margin-right: 20px;*/
 }
 
 .projectInfo p {
@@ -490,7 +518,7 @@ img.screenShot{
   text-align: center;
   color: #3effa7;
   font-size: 20px;
-  margin-left: 15px;
+  margin-left: 50px;
 }
 
 .projectInfo a:hover {
@@ -635,13 +663,17 @@ img.screenShot{
     margin-left: auto;
     margin-right: auto;
   }
+
   img.screenShot{
     height: 312.43px;
     width: 269px;
+    margin-left: 0px;
   }
+
   .projectInfo a {
     margin-left: 0px;
   }
+
   .projectInfo p {
     text-align: left;
   }
@@ -755,6 +787,7 @@ max-height: 100% !important;
   .navbar-nav li a {
     margin-left: 150px;
   }
+
   .page-header {
     width: 33%;
   }
@@ -833,6 +866,9 @@ max-height: 100% !important;
   }
   .projectInfo a {
     margin-left: 60px;
+  }
+  img.screenShot{
+    margin-left: 75px;
   }
 
 }
