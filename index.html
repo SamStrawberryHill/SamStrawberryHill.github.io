@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <title>Samantha Hill's Portfolio Project</title>
+  </head>
+  <body>
+    <!--************* Navigation ************-->
+    <nav class="navbar navbar-full navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#">
+              <img src="img/moon.png" alt="Full Moon" class="moon img-responsive">Samantha Hill</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <div class="container">
+            <ul class="nav navbar-nav">
+              <li><a href="#about"><strong>About</strong></a></li>
+              <li><a href="#work"><strong>Work</strong></a></li>
+              <li><a href="#contact"><strong>Contact</strong></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--************* Page Header/About me ************-->
+    <div class="wrapper">
+      <div class="section section-header aboutMe">
+          <img src="img/ScanMeeee2.png" height="472px" width="400px" alt="Self Portrait" class="portrait img-responsive center-block">
+          <div class="page-header text-center center-block">
+            <h2 class="samantha"><strong>Hi, I'm Samantha Hill. </strong><br />
+              <small>I am an artist turned Front-End Web Developer.</small></h2>
+          </div>
+          <!--************* Alchemy Symbols ************-->
+          <div class="container">
+            <div class="row alchemySymbol">
+              <div class="col-sm-1 hidden-xs">
+                <img src="img/alchemyair.png" alt="Alchemy Air Symbol" class="alchemy img-responsive center-block">
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+                <img src="img/alchemywater.png" alt="Alchemy Water Symbol" class="alchemy img-responsive center-block">
+              </div>
+              <div class="col-sm-1 hidden-xs">
+                <img src="img/alchemyfire.png" alt="Alchemy Fire Symbol" class="alchemy img-responsive center-block">
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+                <img src="img/alchemyearth.png" alt="Alchemy Earth Symbol" class="alchemy img-responsive center-block">
+              </div>
+              <div class="col-sm-1 hidden-xs">
+                <img src="img/alchemyair.png" alt="Alchemy Air Symbol" class="alchemy img-responsive center-block">
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+                <img src="img/alchemywater.png" alt="Alchemy Water Symbol" class="alchemy img-responsive center-block">
+              </div>
+              <div class="col-sm-1 hidden-xs hidden-sm">
+                <img src="img/alchemyfire.png" alt="Alchemy Fire Symbol" class="alchemy img-responsive center-block">
+              </div>
+              <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 hidden-sm">
+                <img src="img/alchemyearth.png" alt="Alchemy Earth Symbol" class="alchemy img-responsive center-block">
+              </div>
+            </div>
+          </div>
+      </div>
+    <!--************* Portfolio ************-->
+    <div class="container-fluid portfolio">
+      <div class="container text-center">
+        <a class="work" name="work">Work</a>
+      </div>
+      <!--**** Project 1 *****-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <a data-toggle="modal" href="#myModal">
+              <img src="img/kitty3good.png" alt="Link to Portfolio Project" class="portWork kitty1 img-responsive center-block">
+              <h3 class="projectName">Accessibility Refractor</h3>
+            </a>
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Project 8: Accessibility Refractor</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <img src="img/Acessibility.png" alt="Link to Portfolio Project" class="screenShot">
+                        </div>
+                          <div class="col-sm-6 col-md-6 col-lg-6">
+                            <div class="projectInfo">
+                            <p>For this project I modified the website files provided for the rock band “Accessible Frog"
+                               to improve the site's accessibility for users. I ensured that the foreground text and background
+                               color of my site have sufficient contrast and I made sure the text, images, and links are large,
+                               distinguishable and readable. I refactored the code with semantically meaningful HTML, with
+                               textual equivalents provided for images and with links named meaningfully.</p>
+                               <a href="https://github.com/SamStrawberryHill/accessibilty_refactor_v5.git">View Project On Github</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg mButton" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--**** Project 2 *****-->
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <a data-toggle="modal" data-target="#project2" data-whatever="@mdo">
+              <img src="img/kitty1good.png" alt="Photo of Portfolio Project" class="portWork kitty2 img-responsive center-block">
+              <h3 class="projectName">Online Registration Form</h3>
+            </a>
+            <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Project 3: Online Registration Form</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <img src="img/OnlineForm.png" alt="Photo of Portfolio Project" class="screenShot">
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <div class="projectInfo">
+                            <p>In this project I built a responsive, mobile-friendly registration form using a wide variety
+                              of HTML form input types and attributes. Utilizing the "mobile-first" approach, I built a mobile and
+                              desktop version of my form using media queries and supplied mockup files.</p>
+                            <a href="https://github.com/SamStrawberryHill/online_registration_v2.git">View Project On Github</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg mButton" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--**** Project 3 *****-->
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <a data-toggle="modal" data-target="#project3" data-whatever="@mdo">
+              <img src="img/kitty5good.jpg" alt="Link to Portfolio Project" class="portWork kitty3 img-responsive center-block">
+              <h3 class="projectName">Optimizing a Site for Performance</h3>
+            </a>
+            <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Project 11: Optimizing a Site for Performance</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <img src="img/PerformanceOptimization.png" alt="Photo of Portfolio Project" class="screenShot">
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <div class="projectInfo">
+                            <p>I applied the skills I learned for optimization of graphics, HTML, CSS, and JavaScript to
+                              take a poorly optimized page and reduce the total load size to under 1.3MB. I analyzed the
+                              assets I was provided, to make optimizations and measure their success.</p>
+                            <a href="https://github.com/SamStrawberryHill/performance-optimization-v2.git">View Project On Github</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg mButton" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--**** Project 4 *****-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <a data-toggle="modal" data-target="#project4" data-whatever="@mdo">
+              <img src="img/kitty6good.jpg" alt="Link to Portfolio Project" class="portWork kitty4 img-responsive center-block">
+              <h3 class="projectName">Interactive Photo Gallery</h3>
+            </a>
+            <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Project 4: Interactive Photo Gallery</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <img src="img/PhotoGallery.png" alt="Photo of Portfolio Project" class="screenShot">
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <div class="projectInfo">
+                            <p>I created an interactive photo gallery using JavaScript and jQuery.
+                               Thumbnails and photos were provided with descriptions.At the top of the page I created
+                              a search area where photos hide and show depending on user input. Using a jQuery plugin,
+                              I made it so when the user clicks on a thumbnail the photo displays in a lightbox.
+                              I implemented back and previous buttons to cycle through photos.
+                            </p>
+                            <a href="https://github.com/SamStrawberryHill/photo_gallery_v1.git">View Project On Github</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg mButton" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--**** Project 5 *****-->
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <a data-toggle="modal" data-target="#project5" data-whatever="@mdo">
+              <img src="img/kitty2good.png" alt="Link to Portfolio Project" class="portWork kitty5 img-responsive center-block">
+              <h3 class="projectName">SVG Site Update</h3>
+            </a>
+            <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Project 6: SVG Site Update</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <img src="img/SVGUpdate.png" alt="Photo of Portfolio Project" class="screenShot">
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <div class="projectInfo">
+                            <p>In this project, I optimized a web page by using common techniques
+                              for adding Scalable Vector Graphics(SVG) images to a provided web page. SVGs performance is much better
+                              than other image formats for responsive design so, they are quickly becoming
+                              a widely used graphic format.
+                            </p>
+                            <a href="https://github.com/SamStrawberryHill/svg_update_v1.git">View Project On Github</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg mButton" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--**** Project 6 *****-->
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <a data-toggle="modal" data-target="#project6" data-whatever="@mdo">
+              <img src="img/kitty4good.png" alt="Link to Portfolio Project" class="portWork kitty6 img-responsive center-block">
+              <h3 class="projectName">Web App Dashboard</h3>
+            </a>
+            <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+              <div class="modal-dialog" role="document">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Project 9: Web App Dashboard</h4>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <img src="img/WebAppDashboard.png" alt="Photo of Portfolio Project" class="screenShot">
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                          <div class="projectInfo">
+                            <p>In this project, I took a mockup and a few icons and built a
+                               web dashboard complete with JavaScript-driven charts and graphs. I created
+                               the HTML, CSS and JavaScript functionality for this one page I was not required to
+                               create other pages or build any backend or database functionality.
+                            </p>
+                            <a href="https://github.com/SamStrawberryHill/web_app_dashboard_v2.git">View Project On Github</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-lg mButton" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--********** Alchemy Symbols ************-->
+      <div class="container">
+        <div class="row alchemySymbol">
+          <div class="col-sm-1 hidden-xs">
+            <img src="img/alchemyair.png" alt="Alchemy Air Symbol" class="alchemy img-responsive center-block">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+            <img src="img/alchemywater.png" alt="Alchemy Water Symbol" class="alchemy img-responsive center-block">
+          </div>
+          <div class="col-sm-1 hidden-xs">
+            <img src="img/alchemyfire.png" alt="Alchemy Fire Symbol" class="alchemy img-responsive center-block">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+            <img src="img/alchemyearth.png" alt="Alchemy Earth Symbol" class="alchemy img-responsive center-block">
+          </div>
+          <div class="col-sm-1 hidden-xs">
+            <img src="img/alchemyair.png" alt="Alchemy Air Symbol" class="alchemy img-responsive center-block">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2">
+            <img src="img/alchemywater.png" alt="Alchemy Water Symbol" class="alchemy img-responsive center-block">
+          </div>
+          <div class="col-sm-1 hidden-xs hidden-sm">
+            <img src="img/alchemyfire.png" alt="Alchemy Fire Symbol" class="alchemy img-responsive center-block">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 hidden-sm">
+            <img src="img/alchemyearth.png" alt="Alchemy Earth Symbol" class="alchemy img-responsive center-block">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--********** Footer ************-->
+    <div class="container-fluid footer">
+      <div id="footer">
+        <div class="sectionK col-md-4">
+          <img src="img/Scankitty2.png" alt="Kitty" class="kitty img-responsive">
+        </div>
+        <div class="sectionA col-md-4">
+          <h2 class="emailMe text-center"><a name="contact">Drop Me A Line</a></h2>
+          <p class="free"> Feel free to contact me with any questions or job offers!</p>
+          <form class="form">
+            <div class="form-group">
+              <label for="inputEmail">Email Address</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" tabindex="1">
+            </div>
+            <div class="form-group">
+              <label for="textarea">Your Message</label>
+              <textarea class="form-control" id="textarea" rows="3" tabindex="2"></textarea>
+            </div>
+            <button type="submit" class="btn btn-lg">Send Message</button>
+          </form>
+        </div>
+        <div class="sectionF col-md-4">
+          <h2 class="followMe text-center"><a name="contact">Follow Me</a></h2>
+            <ul class="soc">
+              <li><a href="https://github.com/SamStrawberryHill" class="icon-13 github" title="GitHub"><svg viewBox="0 0 512 512">
+                <path d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9
+                -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9
+                -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7
+                2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1
+                12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"/></svg>
+              </a></li>
+              <li><a href="https://twitter.com/healthytimego" class="icon-26 twitter" title="Twitter"><svg viewBox="0 0 512 512"><path d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8
+                28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1
+                86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27
+                28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"/></svg>
+              </a></li>
+              <li><a href="https://www.linkedin.com/in/samstrawberryhill" class="icon-17 linkedin" title="LinkedIn"><svg viewBox="0 0 512 512"><path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5
+                0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9
+                35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"/></svg>
+              </a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  </body>
+</html>
