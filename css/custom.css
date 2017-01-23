@@ -296,7 +296,7 @@ a.work:hover {
 }
 .footer {
   height: 30%;
-  background: url('../img/edit2.jpg');
+  background: url('../img/rainbowbackground.jpg');
   border-top: 2px solid #abddff;
 }
 .sectionA,
@@ -739,7 +739,7 @@ img.screenShot{
     margin-left: 0px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 body, html {
 /* height: 100%!important; */
 overflow: auto!important;
