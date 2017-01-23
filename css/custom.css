@@ -739,6 +739,13 @@ img.screenShot{
     margin-left: 0px;
   }
 }
+@media (max-width: 1024px) {
+body, html {
+/* height: 100%!important; */
+overflow: auto!important;
+max-height: 100% !important;
+}
+}
 /*********************** Large Screens ***********************/
 @media (min-width: 1200px) {
   .section .section-header .aboutMe {
