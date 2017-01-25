@@ -215,7 +215,7 @@ img.portrait {
   border-top: 2px solid #abddff;
 }
 
-a.work {
+#work {
   margin-top: 10px;
   font-size: 60px;
   font-family: 'Pacifico', cursive;
@@ -224,7 +224,7 @@ a.work {
   text-align: center;
   }
 
-a.work:hover {
+#work:hover {
   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #3effa7 , 0 0 70px #3effa7 , 0 0 80px #3effa7 , 0 0 100px #3effa7 ;
   text-decoration: none;
   -webkit-transition: 500ms linear 0s;
@@ -370,12 +370,6 @@ a.work:hover {
 
 /************** Contact Form **************/
 
-
-.emailMe a:hover {
-  background-color: transparent;
-  color: #ff3e96;
-  text-decoration: none;
-}
 .container {
   padding: 0 15px;
 }
@@ -400,12 +394,6 @@ label {
 
 .form-control:focus {
   background-color: #fff;
-}
-
-.followMe a:hover {
-  background-color: transparent;
-  color: #ff3e96;
-  text-decoration: none;
 }
 
 .btn {
