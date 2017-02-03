@@ -175,7 +175,7 @@ img.portrait {
   padding-bottom: 5px;
   border-bottom: 0px solid transparent;
   border-radius: 3px;
-  background-color: rgba(109,123,255, 0.7);
+  background-color: rgba(109,123,255, 0.9);
   width: 90%;
 }
 
@@ -237,7 +237,7 @@ img.portrait {
 /**********************  Portfolio Image Styles **********************/
 .projectName {
   font-size: 20px;
-  background-color: rgba(109,123,255, 0.7);
+  background-color: rgba(109,123,255, 0.9);
   border-radius: 3px;
   width: 60%;
   margin-left: auto;
@@ -331,7 +331,7 @@ img.portrait {
 }
 .sectionA,
 .sectionF {
-  background-color: rgba(109,123,255, 0.7);
+  background-color: rgba(109,123,255, 0.9);
   border-radius: 3px;
   margin-bottom: 15px;
   padding-bottom: 5px;
@@ -549,7 +549,7 @@ img.screenShot{
   .container-fluid>.navbar-header,
   .container>.navbar-collapse,
   .container>.navbar-header  {
-  background-color: rgba(109,123,255, 0.7);
+  background-color: rgba(109,123,255, 0.9);
   opacity: 0.8;
   }
 }
