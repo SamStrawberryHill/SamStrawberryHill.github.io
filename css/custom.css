@@ -526,8 +526,6 @@ ul.soc {
 img.screenShot{
   height: 368.42px;
   width: 268px;
-  margin-left: 27.5px;
-  /*margin-right: 20px;*/
 }
 
 .projectInfo p {
@@ -538,7 +536,7 @@ img.screenShot{
   text-align: center;
   color: #3effa7;
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 25px;
 }
 
 .projectInfo a:hover {
@@ -631,12 +629,7 @@ img.screenShot{
   margin-left: 30px;
   }
 
-  .emailMe {
-  text-align: left;
-  }
-
   .followMe {
-  text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
   }
@@ -681,7 +674,7 @@ img.screenShot{
   ul.soc {
     margin-left: -20px;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
   }
 /****************** Modal Window *****************/
   .mButton {
@@ -902,7 +895,7 @@ max-height: 100% !important;
   .projectInfo a {
     margin-left: 60px;
   }
-  
+
   img.screenShot{
     margin-left: 75px;
   }
