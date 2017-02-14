@@ -15,6 +15,7 @@ h3,
 h4 {
   color:	#3effa7;
   margin-top: 5px;
+  padding-top: 5px;
 }
 
 h2 small {
@@ -318,9 +319,6 @@ img.portrait {
 .kitty4:hover,
 .kitty5:hover,
 .kitty6:hover {
-  -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  transform: scale(0.8);
   cursor: pointer;
 }
 
@@ -341,6 +339,8 @@ img.portrait {
   border-radius: 3px;
   margin-bottom: 15px;
   padding-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .sectionA:hover,
@@ -530,6 +530,7 @@ img.screenShot{
 
 .projectInfo p {
   text-align: center;
+  padding-top: 5px;
 }
 
 .projectInfo a {
@@ -886,6 +887,12 @@ max-height: 100% !important;
     display: inline-block;
     margin: 12px;
     margin: 1.2rem;
+  }
+
+  .soc a {
+    position: relative;
+    height: 6rem;
+    width: 6rem;
   }
   /****** Modal Window *******/
   .modal-dialog {
